@@ -1,9 +1,9 @@
 # w5hc_bot_gui.py
-# W5HC Framework™ GUI Bot
+# W5HC Framework™ GUI Bot – Updated for user-friendly PDF save
 # © 2025 Biswajit Satapathy. W5HC Framework™ – Developed at CySec Guardians™. All rights reserved.
 
 import tkinter as tk
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 from fpdf import FPDF
 
 class W5HCBotGUI:
@@ -79,6 +79,17 @@ class W5HCBotGUI:
             self.generate_pdf()
 
     def generate_pdf(self):
+        # Ask user where to save the PDF
+        filename = filedialog.asksaveasfilename(
+            defaultextension=".pdf",
+            filetypes=[("PDF files", "*.pdf")],
+            title="Save your W5HC Report"
+        )
+        if not filename:  # User pressed cancel
+            messagebox.showinfo("Cancelled", "PDF generation cancelled.")
+            self.root.destroy()
+            return
+
         pdf = FPDF()
         pdf.add_page()
         pdf.set_font("Arial", 'B', 16)
@@ -96,14 +107,11 @@ class W5HCBotGUI:
                 pdf.multi_cell(0, 8, str(value[0]))
             pdf.ln(2)
 
-        # Optional: Add diagram placeholder (you can later insert actual image)
-        # pdf.image("W5HC_Diagram.png", x=10, w=180)
-
         pdf.ln(10)
         pdf.set_font("Arial", 'I', 10)
         pdf.multi_cell(0, 6, "© 2025 Biswajit Satapathy. W5HC Framework™ – Developed at CySec Guardians™. All rights reserved.")
-        pdf.output("W5HC_Report.pdf")
-        messagebox.showinfo("Completed", "PDF report generated: W5HC_Report.pdf")
+        pdf.output(filename)
+        messagebox.showinfo("Completed", f"PDF report generated: {filename}")
         self.root.destroy()
 
 if __name__ == "__main__":
