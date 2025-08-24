@@ -1,28 +1,31 @@
 Copyright (c) 2025 Biswajit Satapathy. All rights reserved.
 
-W5HC Framework™ is proprietary software developed by Biswajit Satapathy.  
+W5HC Framework™ is proprietary software developed by Biswajit Satapathy.
 
-Permission is hereby granted to individuals and organizations to use this 
-software for internal purposes, including research, training, and business 
+Permission is hereby granted to individuals and organizations to use this
+software for internal purposes, including research, training, and business
 operations, subject to the following restrictions:
 
-1. The Software may not be sold, sublicensed, or redistributed in any form, 
-   whether modified or unmodified, without the express written permission of 
-   the copyright holder.  
+1. The Software may not be sold, sublicensed, or redistributed in any form,
+   whether modified or unmodified, without the express written permission of
+   the copyright holder.
 
-2. The Software may be modified internally for use within the organization, 
-   but modified versions may not be shared, published, or distributed outside 
-   the organization.  
+2. The Software may be modified internally for use within the organization,
+   but modified versions may not be shared, published, or distributed outside
+   the organization.
 
-3. Commercial resale, licensing, or offering the Software as part of a paid 
-   service requires a separate commercial agreement with the copyright holder.  
+3. Commercial resale, licensing, or offering the Software as part of a paid
+   service requires a separate commercial agreement with the copyright holder.
 
-4. This license does not grant any rights to trademarks, service marks, or 
-   trade names associated with the Software.  
+4. This license does not grant any rights to trademarks, service marks, or
+   trade names associated with the Software.
 
-The Software is provided "AS IS", without warranty of any kind, express or 
-implied, including but not limited to the warranties of merchantability, 
-fitness for a particular purpose, and noninfringement. In no event shall the 
-author be liable for any claim, damages, or other liability, whether in an 
-action of contract, tort, or otherwise, arising from, out of, or in connection 
-with the Software or the use or other dealings in the Software.
+5. The above copyright notice and this license notice must be included in
+   all copies or substantial portions of the Software used internally.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
