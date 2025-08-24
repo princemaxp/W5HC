@@ -36,6 +36,12 @@ Can be used for RCA reports, Jira tickets, or case documentation
 - CLI-based interactive bot (w5hc_bot_cli.py)
 - GUI-based interactive bot (w5hc_bot_gui.py)
 
+Requirements
+
+Python 3.x installed
+Required Python packages: pip install -r requirements.txt
+
+
 📜 License
 
 W5HC Framework™ is proprietary software.  
