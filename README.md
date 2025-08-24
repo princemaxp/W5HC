@@ -5,7 +5,7 @@ A structured approach for Support Teams to analyze, document, and resolve issues
 📌 About
 
 The W5HC Framework™ is designed by Biswajit Satapathy to bring clarity and consistency in technical support and incident analysis.
-It uses the W5HC method (Who, What, When, Where, Why, How, and Conclusion) to structure information, ensuring:
+It uses the W5HC method (What, Who, When, Where, Why, How, and Change) to structure information, ensuring:
 
 Faster root cause analysis (RCA)
 
@@ -34,17 +34,12 @@ Can be used for RCA reports, Jira tickets, or case documentation
 
 /src → Source code (Python GUI bot)
 
-/examples → Sample RCA reports
-
 🚀 Roadmap
 
- CLI version
+ CLI [version](./src/w5hc_bot_cli.py)
 
- GUI version (Tkinter/PyQt)
+ GUI [version](../src/w5hc_bot_gui.py)
 
- PDF export with company branding option
-
- Integration with Jira & Confluence
 
 📜 License
 
