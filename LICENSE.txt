@@ -1,0 +1,28 @@
+Copyright (c) 2025 Biswajit Satapathy. All rights reserved.
+
+W5HC Framework™ is proprietary software developed by Biswajit Satapathy.  
+
+Permission is hereby granted to individuals and organizations to use this 
+software for internal purposes, including research, training, and business 
+operations, subject to the following restrictions:
+
+1. The Software may not be sold, sublicensed, or redistributed in any form, 
+   whether modified or unmodified, without the express written permission of 
+   the copyright holder.  
+
+2. The Software may be modified internally for use within the organization, 
+   but modified versions may not be shared, published, or distributed outside 
+   the organization.  
+
+3. Commercial resale, licensing, or offering the Software as part of a paid 
+   service requires a separate commercial agreement with the copyright holder.  
+
+4. This license does not grant any rights to trademarks, service marks, or 
+   trade names associated with the Software.  
+
+The Software is provided "AS IS", without warranty of any kind, express or 
+implied, including but not limited to the warranties of merchantability, 
+fitness for a particular purpose, and noninfringement. In no event shall the 
+author be liable for any claim, damages, or other liability, whether in an 
+action of contract, tort, or otherwise, arising from, out of, or in connection 
+with the Software or the use or other dealings in the Software.
