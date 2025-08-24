@@ -1,4 +1,4 @@
-# w5hc_gui_bot.py
+# w5hc_bot_gui.py
 # W5HC Framework™ GUI Bot
 # © 2025 Biswajit Satapathy. W5HC Framework™ – Developed at CySec Guardians™. All rights reserved.
 
