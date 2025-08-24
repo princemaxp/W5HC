@@ -1,5 +1,5 @@
 # w5hc_bot_gui.py
-# W5HC Framework™ GUI Bot – Updated for user-friendly PDF save
+# W5HC Framework™ GUI Bot – Fully Updated
 # © 2025 Biswajit Satapathy. W5HC Framework™ – Developed at CySec Guardians™. All rights reserved.
 
 import tkinter as tk
@@ -80,12 +80,12 @@ class W5HCBotGUI:
 
     def generate_pdf(self):
         # Ask user where to save the PDF
-        filename = filedialog.asksaveasfilename(
+        file_path = filedialog.asksaveasfilename(
             defaultextension=".pdf",
             filetypes=[("PDF files", "*.pdf")],
             title="Save your W5HC Report"
         )
-        if not filename:  # User pressed cancel
+        if not file_path:
             messagebox.showinfo("Cancelled", "PDF generation cancelled.")
             self.root.destroy()
             return
@@ -110,9 +110,15 @@ class W5HCBotGUI:
         pdf.ln(10)
         pdf.set_font("Arial", 'I', 10)
         pdf.multi_cell(0, 6, "© 2025 Biswajit Satapathy. W5HC Framework™ – Developed at CySec Guardians™. All rights reserved.")
-        pdf.output(filename)
-        messagebox.showinfo("Completed", f"PDF report generated: {filename}")
+
+        try:
+            pdf.output(str(file_path))
+            messagebox.showinfo("Completed", f"PDF report successfully saved:\n{file_path}")
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to save PDF:\n{e}")
+
         self.root.destroy()
+
 
 if __name__ == "__main__":
     root = tk.Tk()
