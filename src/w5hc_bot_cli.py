@@ -1,4 +1,4 @@
-# w5hc_bot.py
+# w5hc_bot_cli.py
 # W5HC Framework™ Interactive Bot
 # © 2025 Biswajit Satapathy. W5HC Framework™ – Developed at CySec Guardians™. All rights reserved.
 
